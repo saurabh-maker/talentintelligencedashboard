@@ -3,42 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agentic Dashboard</title>
+    <title></title>
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #f4f6f8;
-            height: 100vh;
+        html, body {
+            height: 100%;
+            background: #ffffff;
             overflow: hidden;
-        }
-
-        /* Top Navbar */
-        .navbar {
-            width: 100%;
-            height: 58px;
-            background: #121212;
-            color: white;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: 0.3px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-
-        .navbar span {
-            color: #00e5ff;
-            font-weight: 700;
-        }
-
-        /* Fullscreen iframe container */
-        .iframe-container {
-            width: 100%;
-            height: calc(100vh - 58px);
         }
 
         iframe {
@@ -51,12 +23,10 @@
 
 <body>
 
-    <!-- Fullscreen Dashboard -->
-    <div class="iframe-container">
-        <iframe
-            src="https://script.google.com/macros/s/AKfycbyjT_KMvafSu8BNLJcTVLV5GTdi4h20MCeUOZIS4nWQto3AmYOMp__EE-hVrSbAX-wy/exec">
-        </iframe>
-    </div>
+    <iframe
+        src="https://script.google.com/macros/s/AKfycbyjT_KMvafSu8BNLJcTVLV5GTdi4h20MCeUOZIS4nWQto3AmYOMp__EE-hVrSbAX-wy/exec"
+        sandbox="allow-scripts allow-same-origin allow-forms"
+    ></iframe>
 
 </body>
 </html>
